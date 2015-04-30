@@ -150,3 +150,6 @@ set spellfile=$HOME/.vim-spell-en.utf-8.add
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
 endif
+
+" Toggle nerd tree
+map <C-n> :NERDTreeToggle<CR>
